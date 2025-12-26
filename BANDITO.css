@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+#lv1,#lv2,#lv3{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    line-height: 100px;
+}
+.seleziona{
+    border-width: 5px;
+    width: 5cm;
+    height: 2.5cm;
+    margin-top: 30px;
+    border-color: antiquewhite;
+    background-color: white;
+    color:white;
+    text-align: center;
+    margin-left: 1.5cm;
+    border-radius: 5.5%;
+    border: solid;
+    border-color: black;
+    box-shadow:  10px  10px 5px #dedede,
+    -10px -10px 5px #dedede,
+     10px -10px 5px #dedede,
+    -10px  10px 5px #dedede;
+}
+.seleziona:hover{
+    background-color: blanchedalmond;
+    box-shadow: 20px;
+}
+#over{
+    background-image: url('./textures!!1!1!!/Gameover.png');
+    width: 358px;
+    height: 167px;
+    margin-left: 35%;
+    border-radius: 10.5%;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2px;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -625px;
+}
+div{
+    background-color:rgb(255, 255, 255);
+    margin-left: 3%;
+    height: 2cm;
+    width: 2cm;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5%;
+    border: solid;
+    border-color: black;
+}
